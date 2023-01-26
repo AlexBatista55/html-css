@@ -1,0 +1,27 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    /* 
+    Medidas Absolutas
+
+    cm  (centimetro)
+    mm  (milimetro)
+    in  (polegada)
+    px  (pixel)
+    pt  (ponto)
+    pc  (paica
+
+    Medidas Relativas
+    em (relativa ao tamanho atual da fonte, usa a letra m como referencia)
+    ex (relativa a altura "x" de uma fonte, usa a letra x como referencia)
+    rem (Que é o mesmo que o em, so que relativo ao root, a fonte que esta configurada no body)
+    vw (view width, que é relacionado a largura da tela, por %)
+    vh (view height, que é relacionado a altura da tela)
+    % (que é declarado a % do tamanho)  
+
+
+    As recomendações da W3C são a PX e a EM
+   1 em equivale a 16 pixels
+    A recomendação do professor é usar em, pois tem tipos de tela que calculam o tamanho de pixel de forma diferente, o que pode dar uma pequena variação
+    */
+    font-size: 16px; /*16px é o tamanho original dos navegadores*/
+}

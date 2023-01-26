@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BRL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu própio servidor</p>
+    <!----<video src="mida/arquivo_pequeno.mp4" width="300" controls></video>-->
+    <video width="500" height="315" poster="imagens/rosquinha.jpg" controls loop>
+        <source src="mida/arquivo_pequeno.mp4" type="video/mp4"> <!-- Este é uma forma de colocar varios formatos de videos, caso alguem acesse por outro navegador que nao aceite o formato mp4(igual nas imagens). 
+        Os formatos aceitos são mp4/m4v/webm/ogv(para conseguir esses formatos, basta procurar por um codificador on-line), depois criar varios sources com midias diferentes.
+        Mas esta não é a melhor forma de fazer, pois ela gera muita banda de dados, o que ira encarecer o valor da hospedagem-->
+    </video>
+    <!-- Essas formas abaixo so inserindo videos do Youtube e do Vimeo, são as melhores formas de colocar video no site
+    O Vimeo tem a opção caso vc queira colocar videos onde só algumas pessoas possam ver. Outra caracteristica boa é que a qualidade dos videos são melhores. O ponto fraco é que ele nao é tão famoso e por serem videos melhores, dependendo da internet da pessoa, ele pode travar-->
+    <h1>Inserindo Videos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tjZQnk5j6Zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Inserindo Videos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/191894507?h=e15bf4bcf0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <p><a href="https://vimeo.com/191894507">Animation Reel</a> from <a href="https://vimeo.com/shaoyuhsu">Shao YU Hsu</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+</html>

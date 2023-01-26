@@ -1,0 +1,53 @@
+/*Ver se da pra fazer um jogo da memoria*/
+
+
+div{
+    display: inline-block;
+    background-color: lightgray;
+    text-align: center;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover#d1{
+    background-color: red;
+    display: block;
+}
+
+div:hover#d2{
+    background-color: yellow;      
+}
+
+div:hover#d3{
+    background-color: green;
+}
+
+div:hover#d4{
+    background-color: blue;
+}
+
+div:hover#d5{
+    background-color: orange;
+}
+
+div:hover#d6{
+    background-color: green;
+}
+
+div:hover#d7{
+    background-color: yellow;
+}
+
+div:hover#d8{
+    background-color: blue;
+}
+
+div:hover#d9{
+    background-color: orange;
+}
+
+div:hover#d10{
+    background-color: red;
+    display: block;
+}
